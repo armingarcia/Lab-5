@@ -142,6 +142,8 @@ public class Calculator
         case 1:
         	if(token[0] = "quit");
         case 2:
+        case 3:
+        	
         }
 
     }
