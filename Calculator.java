@@ -97,6 +97,10 @@ public class Calculator
     	if(calculateoperation.equals("/")) {
     		value = one/two;
     		return value;
+    	}
+    		else {
+    			throw new CalculatorException("Illegal Command");
+    					
     		
     	}
     }
