@@ -100,8 +100,7 @@ public class Calculator
     	}
     		else {
     			throw new CalculatorException("Illegal Command");
-    					
-    		
+    						
     	}
     }
 
@@ -138,7 +137,10 @@ public class Calculator
         // Condition on the number of tokens (number of strings in user input separated by spaces)
         switch(tokens.length)
         {
-            // TODO: complete this...
+        case 0:
+        	throw new CalculatorException("Illegal Token Length");
+        case 1:
+        	if(token[0] = "quit");
         }
 
     }
