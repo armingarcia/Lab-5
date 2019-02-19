@@ -141,6 +141,7 @@ public class Calculator
         	throw new CalculatorException("Illegal Token Length");
         case 1:
         	if(token[0] = "quit");
+        case 2:
         }
 
     }
